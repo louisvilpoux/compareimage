@@ -12,13 +12,8 @@ The development part has been made in Python 3 with well-known libraries : Numpy
 The command to run the program is : python deduplicate.py path/to/image1 path/to/image2 .
 
 The algorithm that has been created is made of different steps :
-1. Preprocessing
-  a. Rotation
-  b. Remove white bands
-  c. Resizing
-2. Basic score
-  a. Mean Square Error
-  b. Structural Similarity
+1. Preprocessing : Rotation - Remove white bands - Resizing
+2. Basic score : Mean Square Error - Structural Similarity
 3. Key points matching
 
 They are described below.
