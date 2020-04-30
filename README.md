@@ -9,7 +9,7 @@ In the development, it is assumed that images from same sellers are compared. No
 A first step, not part of the algorithm, has been to organise data. In order to build tests, folders have been created to reproduce different cases : same images, same objects with similar background or takes, same objects with different backgrounds, different objects with similar backgrounds, different objects with different backgrounds.
 
 The development part has been made in Python 3 with well-known libraries : Numpy, Pillow, OpenCV and Scikit-Image. A requirements.txt file contains used libraries with versions.
-The command to run the program is : python deduplicate.py path/to/image1 path/to/image2 .
+The command to run the program is : `python deduplicate.py path/to/image1 path/to/image2` .
 
 The algorithm that has been created is made of different steps :
 1. Preprocessing : Rotation - Remove white bands - Resizing
